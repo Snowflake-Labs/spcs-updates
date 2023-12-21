@@ -12,6 +12,6 @@ Snowpark Container Services in **Public Preview** is coming soon to the followin
 
 **We will create a new release in this repo when Snowpark Container Services is available in Public Preview in a new region** You can subscribe to releases to stay up to date on new regions.
 
-All AWS regions available in **Private Preview**. Please work with your account representative as needed for additional regions.
+All AWS regions available in **Private Preview**. Please work with your account representative to get access to Private Preview in those regions.
 
 Private Preview for Azure and GCP will be announced at a later date.
