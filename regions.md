@@ -1,14 +1,17 @@
 # SPCS PuPr region availability
 
-Snowpark Container Services is currently in **Public Preview** in **AWS only** in the following regions:
-- Europe (London)
-- Asia Pacific (Mumbai)
+Snowpark Container Services is currently in **Public Preview** in the following regions:
+- AWS Europe (London)
+- AWS Asia Pacific (Mumbai)
+- AWS US West (Oregon)
+- AWS Europe (Frankfurt)
+- AWS Asia Pacific (Tokyo)
+- AWS Canada (Central)
 
 Snowpark Container Services in **Public Preview** is coming soon to the following regions:
-- US West (Oregon)
-- Europe (Frankfurt)
-- Asia Pacific (Tokyo)
-- Canada (Central)
+- AWS Europe (Ireland)
+- AWS US East (Ohio)
+- AWS Asia Pacific (Sydney)
 
 **We will create a new release in this repo when Snowpark Container Services is available in Public Preview in a new region** You can subscribe to releases to stay up to date on new regions.
 
