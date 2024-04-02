@@ -19,7 +19,10 @@ Snowpark Container Services is available in **Public Preview** in all AWS Commer
 - AWS Asia Pacific (Jakarta)
 - AWS Europe (Paris)
 
+# SPCS PrPr region availability
+Snowpark Container Services is available in **Private Preview** in these Azure Commercial regions:
+- Azure South Central US (Texas)
 
 **We will create a new release in this repo when Snowpark Container Services is available in a new region** You can subscribe to releases to stay up to date on new regions.
 
-Private Preview for Azure and GCP will be announced at a later date.
+Private Preview for Google Cloud will be announced at a later date.
