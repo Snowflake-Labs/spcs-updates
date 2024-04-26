@@ -6,12 +6,13 @@ To be notified about release notes, follow the instructions in the [README](http
 
 **Note**: Run `SELECT CURRENT_VERSION()` to see the current version of Snowflake in your account.
 
-_Last updated: Apr 23, 2024_
+_Last updated: Apr 25, 2024_
 <br><br>
 
 ## Release notes
 | Feature | Description | Release date | Release |
 |---------|-------------|--------------|---------|
+| Compute Node | We will be instituting a behavioral change for node storage capacity on Snowpark Container Services Compute Pool nodes.  We will be reducing the on-node storage capacity from 250GiB to 100GiB. On-node storage is used for 1/caching container images to reduce image download time, 2/on-node storing of container images, and 3/local ephemeral or temporary scratch space. Nodes will be migrated to the new capacity over the following 2 weeks, and no action is required to migrate to the new capacity. It is recommended that customers who require additional storage capacity for their containers should use Block Storage (Public Preview) to attach a volume to store data alongside the container image. | May 7, 2024 (tentative)| 8.18 (tenative) |
 | Block Storage | Block storage is available as Public Preview for all Commercial Snowpark Container Services customers. Customers can use Block storage to host high performance storage workloads. Block storage enables customers to easily provision and attach block storage volumes with up to 3000 IOPS, 125MB/s of throughput and 16TB of capacity to their Service.  Customers can backup their volumes by creating instant, point in time copies of their volumes and then later restore their data using the integrated snapshots. | Apr 23, 2024 | 8.16 |
 | Compute Pool metrics | Compute Pool metrics are available as Public Preview for all Snowpark Container Services customers. Compute Pool metrics enable customers to observe the performance of nodes, services and jobs in the compute pool. Customers can now see the amount of free memory available for use by containers on a node or the amount of memory used by a specific container.  Customers can now optimize and troubleshoot their SPCS workloads for improved resource utilization and reduced cost. Additionally, SPCS Compute Pool metrics can be easily integrated with existing enterprise metrics collection, visualization and reporting services, such as Datadog and Prometheus. | April 21, 2024| 8.15|
 | Compute Pool | Previously, a Snowpark Container Services Compute Pool may be incorrectly identified as `IDLE` and be suspended despite having `ACTIVE` services or jobs. Now, the show compute pools command output is corrected to display the `ACTIVE` state if there are any active services or jobs. Additionally, the Compute Pool’s auto-suspend timer will only start when there are no active services or jobs. | Mar 7, 2024| 8.9.2|
